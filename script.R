@@ -10,9 +10,9 @@ library(readxl)
 library(writexl)
 
 # Carregar dados
-dados <- read_excel("ER_1sub.xlsx")
+dados <- read_excel("P_final_graus.xlsx")
 
-variavel <- "ER_1sub"
+variavel <- "P_final_graus"
 
 # ============================================================
 # REMOÇÃO DE OUTLIERS POR GRUPO DENTRO DE CADA BLOCO
